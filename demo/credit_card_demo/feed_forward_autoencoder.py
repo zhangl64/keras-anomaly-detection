@@ -3,7 +3,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 from keras_anomaly_detection.library.feedforward import FeedForwardAutoEncoder
-from keras_anomaly_detection.demo.credit_card_demo.unzip_utils import unzip
+# from keras_anomaly_detection.demo.credit_card_demo.unzip_utils import unzip
+from demo.credit_card_demo.unzip_utils import unzip
 from keras_anomaly_detection.library.plot_utils import plot_confusion_matrix, plot_training_history, visualize_anomaly
 from keras_anomaly_detection.library.evaluation_utils import report_evaluation_metrics
 import numpy as np
